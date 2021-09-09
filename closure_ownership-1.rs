@@ -3,5 +3,5 @@ fn main(){
     let mut inc = || {a+=1;a};
     inc();
     inc();
-    println!("now a is {}", a);
+    println!("now a is {}", a); // output 3
 }
